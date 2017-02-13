@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Perkembangan Nilai" printOrder="Horizontal" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2d24279a-e057-4874-91b6-1d52fa66cfdc">
+	<property name="ireport.zoom" value="1.2100000000000128"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="192"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="IND1" class="java.lang.Float">
+		<fieldDescription><![CDATA[IND1]]></fieldDescription>
+	</field>
+	<field name="IND2" class="java.lang.Float">
+		<fieldDescription><![CDATA[IND2]]></fieldDescription>
+	</field>
+	<field name="IND3" class="java.lang.Float">
+		<fieldDescription><![CDATA[IND3]]></fieldDescription>
+	</field>
+	<field name="IND4" class="java.lang.Float">
+		<fieldDescription><![CDATA[IND4]]></fieldDescription>
+	</field>
+	<field name="IND5" class="java.lang.Float">
+		<fieldDescription><![CDATA[IND5]]></fieldDescription>
+	</field>
+	<field name="IND6" class="java.lang.Float">
+		<fieldDescription><![CDATA[IND6]]></fieldDescription>
+	</field>
+	<field name="ING1" class="java.lang.Float">
+		<fieldDescription><![CDATA[ING1]]></fieldDescription>
+	</field>
+	<field name="ING2" class="java.lang.Float">
+		<fieldDescription><![CDATA[ING2]]></fieldDescription>
+	</field>
+	<field name="ING3" class="java.lang.Float">
+		<fieldDescription><![CDATA[ING3]]></fieldDescription>
+	</field>
+	<field name="ING4" class="java.lang.Float">
+		<fieldDescription><![CDATA[ING4]]></fieldDescription>
+	</field>
+	<field name="ING5" class="java.lang.Float">
+		<fieldDescription><![CDATA[ING5]]></fieldDescription>
+	</field>
+	<field name="ING6" class="java.lang.Float">
+		<fieldDescription><![CDATA[ING6]]></fieldDescription>
+	</field>
+	<field name="KELAS" class="java.lang.String">
+		<fieldDescription><![CDATA[KELAS]]></fieldDescription>
+	</field>
+	<field name="KK" class="java.lang.String">
+		<fieldDescription><![CDATA[KK]]></fieldDescription>
+	</field>
+	<field name="KWU1" class="java.lang.Float">
+		<fieldDescription><![CDATA[KWU1]]></fieldDescription>
+	</field>
+	<field name="KWU2" class="java.lang.Float">
+		<fieldDescription><![CDATA[KWU2]]></fieldDescription>
+	</field>
+	<field name="KWU3" class="java.lang.Float">
+		<fieldDescription><![CDATA[KWU3]]></fieldDescription>
+	</field>
+	<field name="KWU4" class="java.lang.Float">
+		<fieldDescription><![CDATA[KWU4]]></fieldDescription>
+	</field>
+	<field name="KWU5" class="java.lang.Float">
+		<fieldDescription><![CDATA[KWU5]]></fieldDescription>
+	</field>
+	<field name="KWU6" class="java.lang.Float">
+		<fieldDescription><![CDATA[KWU6]]></fieldDescription>
+	</field>
+	<field name="NAMA" class="java.lang.String">
+		<fieldDescription><![CDATA[NAMA]]></fieldDescription>
+	</field>
+	<field name="NIS" class="java.lang.String">
+		<fieldDescription><![CDATA[NIS]]></fieldDescription>
+	</field>
+	<field name="PAI1" class="java.lang.Float">
+		<fieldDescription><![CDATA[PAI1]]></fieldDescription>
+	</field>
+	<field name="PAI2" class="java.lang.Float">
+		<fieldDescription><![CDATA[PAI2]]></fieldDescription>
+	</field>
+	<field name="PAI3" class="java.lang.Float">
+		<fieldDescription><![CDATA[PAI3]]></fieldDescription>
+	</field>
+	<field name="PAI4" class="java.lang.Float">
+		<fieldDescription><![CDATA[PAI4]]></fieldDescription>
+	</field>
+	<field name="PAI5" class="java.lang.Float">
+		<fieldDescription><![CDATA[PAI5]]></fieldDescription>
+	</field>
+	<field name="PAI6" class="java.lang.Float">
+		<fieldDescription><![CDATA[PAI6]]></fieldDescription>
+	</field>
+	<field name="PJOK1" class="java.lang.Float">
+		<fieldDescription><![CDATA[PJOK1]]></fieldDescription>
+	</field>
+	<field name="PJOK2" class="java.lang.Float">
+		<fieldDescription><![CDATA[PJOK2]]></fieldDescription>
+	</field>
+	<field name="PJOK3" class="java.lang.Float">
+		<fieldDescription><![CDATA[PJOK3]]></fieldDescription>
+	</field>
+	<field name="PJOK4" class="java.lang.Float">
+		<fieldDescription><![CDATA[PJOK4]]></fieldDescription>
+	</field>
+	<field name="PJOK5" class="java.lang.Float">
+		<fieldDescription><![CDATA[PJOK5]]></fieldDescription>
+	</field>
+	<field name="PJOK6" class="java.lang.Float">
+		<fieldDescription><![CDATA[PJOK6]]></fieldDescription>
+	</field>
+	<field name="PKN1" class="java.lang.Float">
+		<fieldDescription><![CDATA[PKN1]]></fieldDescription>
+	</field>
+	<field name="PKN2" class="java.lang.Float">
+		<fieldDescription><![CDATA[PKN2]]></fieldDescription>
+	</field>
+	<field name="PKN3" class="java.lang.Float">
+		<fieldDescription><![CDATA[PKN3]]></fieldDescription>
+	</field>
+	<field name="PKN4" class="java.lang.Float">
+		<fieldDescription><![CDATA[PKN4]]></fieldDescription>
+	</field>
+	<field name="PKN5" class="java.lang.Float">
+		<fieldDescription><![CDATA[PKN5]]></fieldDescription>
+	</field>
+	<field name="PKN6" class="java.lang.Float">
+		<fieldDescription><![CDATA[PKN6]]></fieldDescription>
+	</field>
+	<field name="PROD1" class="java.lang.Float">
+		<fieldDescription><![CDATA[PROD1]]></fieldDescription>
+	</field>
+	<field name="PROD2" class="java.lang.Float">
+		<fieldDescription><![CDATA[PROD2]]></fieldDescription>
+	</field>
+	<field name="PROD3" class="java.lang.Float">
+		<fieldDescription><![CDATA[PROD3]]></fieldDescription>
+	</field>
+	<field name="PROD4" class="java.lang.Float">
+		<fieldDescription><![CDATA[PROD4]]></fieldDescription>
+	</field>
+	<field name="PROD5" class="java.lang.Float">
+		<fieldDescription><![CDATA[PROD5]]></fieldDescription>
+	</field>
+	<field name="PROD6" class="java.lang.Float">
+		<fieldDescription><![CDATA[PROD6]]></fieldDescription>
+	</field>
+	<field name="PRODI" class="java.lang.String">
+		<fieldDescription><![CDATA[PRODI]]></fieldDescription>
+	</field>
+	<field name="TTL" class="java.lang.String">
+		<fieldDescription><![CDATA[TTL]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="93" splitType="Stretch">
+			<image>
+				<reportElement uuid="1ca95b26-d5c0-446e-b814-30a262720805" x="353" y="13" width="80" height="80"/>
+				<imageExpression><![CDATA["C:\\Users\\adityamzr\\Documents\\NetBeansProjects\\PerkembanganNilai\\src\\images\\logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="46">
+			<rectangle>
+				<reportElement uuid="74f6c048-4fab-4d3c-b28f-411a16e9ca86" x="0" y="4" width="802" height="40" backcolor="#FFCC00"/>
+			</rectangle>
+			<staticText>
+				<reportElement uuid="5bee1570-2750-4235-86ab-63666545198f" x="0" y="4" width="802" height="20"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Perkembangan Nilai Siswa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="363958f8-c438-4dd7-8a25-dab32ce24f1f" x="0" y="20" width="802" height="20"/>
+				<textElement textAlignment="Center">
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SMK Negeri 4 Bandung]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="299" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="f2a607ae-d847-42f3-bb73-08ed065ca437" x="0" y="10" width="171" height="276"/>
+			</rectangle>
+			<staticText>
+				<reportElement uuid="314a2be0-9823-4c4f-9919-92633e666b18" x="11" y="150" width="55" height="20"/>
+				<textElement/>
+				<text><![CDATA[Nama :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ead02867-6879-4fbf-89c4-016a8a6cdf46" x="11" y="170" width="55" height="20"/>
+				<textElement/>
+				<text><![CDATA[Kelas :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a682c1e6-00f1-42c1-9476-0a4844b454fe" x="11" y="190" width="55" height="20"/>
+				<textElement/>
+				<text><![CDATA[Jurusan :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c205b45c-fbb3-4ecf-8621-ee8a2f3db399" x="11" y="210" width="55" height="20"/>
+				<textElement/>
+				<text><![CDATA[TTL :]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="74df3801-07b9-4055-89b1-1abba24684bd" x="66" y="150" width="105" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{NAMA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="dbf33858-9f30-44b1-8be1-e2131f2777c8" x="66" y="170" width="105" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{KELAS}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="53be7f25-5962-425e-b3f7-a1511aa0c668" x="66" y="190" width="105" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{KK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="6a0a2d6c-67c4-46ca-a40d-2253f5514992" x="66" y="210" width="105" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{TTL}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement uuid="20718db6-47c4-47d9-b15d-de530493d91e" x="190" y="10" width="611" height="276"/>
+			</rectangle>
+			<xyLineChart>
+				<chart>
+					<reportElement uuid="f101bfec-1b17-4da7-ad04-40a1c5f1bfb9" x="201" y="25" width="588" height="250"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<xyDataset>
+					<xySeries>
+						<seriesExpression><![CDATA[$F{IND1}]]></seriesExpression>
+						<xValueExpression><![CDATA[$F{IND1}$F{IND2}]]></xValueExpression>
+						<yValueExpression><![CDATA[$F{IND1}$F{IND2}]]></yValueExpression>
+					</xySeries>
+					<xySeries>
+						<seriesExpression><![CDATA[$F{IND3}]]></seriesExpression>
+						<xValueExpression><![CDATA[$F{IND3}$F{IND4}]]></xValueExpression>
+						<yValueExpression><![CDATA[$F{IND3}]]></yValueExpression>
+					</xySeries>
+				</xyDataset>
+				<linePlot>
+					<plot/>
+					<categoryAxisFormat>
+						<axisFormat/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat/>
+					</valueAxisFormat>
+				</linePlot>
+			</xyLineChart>
+		</band>
+		<band height="81">
+			<rectangle>
+				<reportElement uuid="aba7f7db-ab83-496e-8e41-74c2b14fd311" x="0" y="0" width="802" height="76"/>
+			</rectangle>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="27" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="5468a4c6-c858-4944-9b7b-a5569a66698c" x="353" y="3" width="100" height="20"/>
+				<textElement>
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[@Copyright 2016]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>
